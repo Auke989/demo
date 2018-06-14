@@ -1,14 +1,116 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "ziekenhuizen": [
+    {
+      "id": 1,
+      "naam": "Leids Universitair Medisch Centrum"
+    },
+	{
+      "id": 2,
+      "naam": "Alrijne Leiderdorp"
+    },
+	{
+      "id": 3,
+      "naam": "Groene Hart Ziekenhuis Gouda"
+    },
+	{
+      "id": 4,
+      "naam": "HMC lokatie Bronovo"
+	},
+	{
+      "id": 5,
+      "naam": "HMC locatie Westeinde"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "bed_afdelingen": [
+	  {
+		"id": 1,
+		"ziekenhuis_id": 1,
+		"naam": "EHH",
+		"aantal_bedden": 4,
+		"bezette_bedden": 0
+	  },
+	  {
+		"id": 2,
+		"ziekenhuis_id": 1,
+		"naam": "CCU",
+		"aantal_bedden": 8,
+		"bezette_bedden": 0
+	  },
+	  {
+		"id": 3,
+		"ziekenhuis_id": 2,
+		"naam": "EHH/CCU",
+		"aantal_bedden": 18,
+		"bezette_bedden": 0
+	  },
+	  {
+		"id": 4,
+		"ziekenhuis_id": 3,
+		"naam": "EHH",
+		"aantal_bedden": 4,
+		"bezette_bedden": 0
+	  },
+	  {
+		"id": 5,
+		"ziekenhuis_id": 3,
+		"naam": "CCU",
+		"aantal_bedden": 8,
+		"bezette_bedden": 0
+	  },
+	  {
+		"id": 6,
+		"ziekenhuis_id": 4,
+		"naam": "CCU",
+		"aantal_bedden": 4,
+		"bezette_bedden": 0
+	  },
+	  {
+		"id": 7, 
+		"ziekenhuis_id": 4,
+		"naam": "EHH",
+		"aantal_bedden": 5,
+		"bezette_bedden": 0
+	  },	
+	  {
+		"id": 8,
+		"ziekenhuis_id": 5,
+		"naam": "CCU",
+		"aantal_bedden": 8,
+		"bezette_bedden": 0
+	  }
+	  
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "binaire_afdelingen": [
+	{
+		"id": 1,
+		"ziekenhuis_id": 1,
+		"naam": "SEH",
+		"open": true
+	},
+	{
+		"id": 2,
+		"ziekenhuis_id": 2,
+		"naam": "SEH",
+		"open": true
+	},
+		{
+		"id": 3,
+		"ziekenhuis_id": 3,
+		"naam": "SEH",
+		"open": true
+	},
+	{
+		"id": 4,
+		"ziekenhuis_id": 4,
+		"naam": "SEH",
+		"open": true
+	},
+		{
+		"id": 5,
+		"ziekenhuis_id": 5,
+		"naam": "SEH",
+		"open": true
+	}
+  ]
 }
+
