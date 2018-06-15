@@ -27,14 +27,14 @@
 		"ziekenhuis_id": 1,
 		"naam": "EHH",
 		"aantal_bedden": 4,
-		"bezette_bedden": 0
+		"bezette_bedden": 1
 	  },
 	  {
 		"id": 2,
 		"ziekenhuis_id": 1,
 		"naam": "CCU",
 		"aantal_bedden": 8,
-		"bezette_bedden": 0
+		"bezette_bedden": 2
 	  },
 	  {
 		"id": 3,
